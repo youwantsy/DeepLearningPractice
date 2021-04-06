@@ -15,7 +15,7 @@ print(tensor.shape, "\n", tensor)
 tensor = np.array([[1,1], [2,2], [3,3]])
 tensor = np.delete(tensor, 1, axis=0)
 print(tensor.shape, "\n", tensor)
-#%%
+
 # 요소 중복 제거
 tensor = np.array([[1,1,2,2,3,3]])
 tensor = np.unique(tensor)
